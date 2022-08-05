@@ -50,7 +50,7 @@ __Коммит (commit)__ — набор изменений в файлах и �
 
 `$ git remote add origin https://github.com/AlexandrLeonov85/learning-git.git` — данная команда устанавливает связку локального репозитория с удалённым.
 
-`$ git remote set-url origin https://AlexandrLeonov85:<MYTOKEN>@github.com/AlexandrLeonov85/learning-git.git` — для авторизации по personal access token (PAT) на github. Git writes your token to ~/.git/config file in plain text, which is a security risk! [Правильная авторизация на GitHub](github-auth.md)
+`$ git remote set-url origin https://AlexandrLeonov85:<MYTOKEN>@github.com/AlexandrLeonov85/learning-git.git` — для авторизации по personal access token (PAT) на github. Git writes your token to ~/.git/config file in plain text, which is a security risk! [Правильная авторизация на GitHub](../github-auth.md)
 
 `$ git remote -v` — покажет адрес удалённого репозитория, с которым связан локальный репозиторий (вместе с персональным токеном, что небезопасно! Нужно подумать, как хранить токен и как правильно авторизироваться, когда пушим изменения на удалённый репозиторий).
 
